@@ -7,6 +7,7 @@ const mobileMenu = document.getElementById(`mobile-menu`);
 // get height of navbar
 const navHeight = navBar.getBoundingClientRect().height;
 
+// mobile menu
 hamburgerIcon.addEventListener(`click`, function () {
   mobileMenu.classList.toggle(`hide`);
   hamburgerIcon.classList.toggle(`open`);
