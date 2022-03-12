@@ -162,6 +162,28 @@ a:hover {
   position: relative;
 }
 
+/* back to top button */
+#back-to-top {
+  display: flex;
+  justify-content: center;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid #fff;
+  padding: 0.5rem;
+  border-radius: 50px;
+  background-color: var(--primary-color);
+  opacity: 0.8;
+  transition: var(--transition);
+  cursor: pointer;
+  position: fixed;
+  z-index: 100;
+}
+
+#back-to-top:hover {
+  background-color: var(--primary-color-hover);
+  opacity: 1;
+}
+
 /* Navigation styles */
 
 #nav-bar {
