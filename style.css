@@ -464,12 +464,6 @@ textarea {
   margin: 1rem 0;
 }
 
-/* form input:focus,
-textarea:focus {
-  outline: none !important;
-  border: 2px solid var(--primary-color);
-} */
-
 form #message {
   resize: none;
   font-family: inherit;
